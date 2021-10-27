@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/************************************************************
+reset *******************************************************/
+
+body * {
+  box-sizing: border-box;
+}
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd,
+dt,
+div {
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  appearance: none;
+}
+
+/************************************************************
+base *******************************************************/
+
+body {
+  line-height: 1.7;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+/************************************************************
+style *******************************************************/
+
+/* header */
+header {
+  background-color: rgb(255, 72, 0);
+}
+header h1 {
+  text-align: center;
+  color: brown;
+  padding: 150px 0;
+}
+
+/* nav */
+nav {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: brown;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  width: calc(100% / 6);
+  text-align: center;
+  height: 60px;
+  border-right: 1px solid rgb(255, 72, 0);
+}
+nav ul li:last-child {
+  border-right: none;
+}
+nav ul li a {
+  line-height: 60px;
+  color: #fff;
+}
+
+/* main */
+main {
+  padding: 50px;
+}
+main section {
+  margin-top: 60px;
+}
+main section:first-child {
+  margin-top: 0;
+}
+main section h2 {
+  margin-bottom: 30px;
+}
+
+/* javascript */
